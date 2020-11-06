@@ -13,6 +13,23 @@ public class Interval {
         this.pocetnaPripada = pocetnaPripada;
         this.krajnjaPripada = krajnjaPripada;
     }
+    public Interval(){
+        pocetnaTacka = 0;
+        krajnjaTacka = 0;
+        pocetnaPripada = false;
+        krajnjaPripada = false;
+    }
+   /* public boolean isNull(){
+
+    }*/
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Interval)) return false;
+        Interval interval = (Interval) obj;
+        return pocetnaTacka == interval.getPocetnaTacka() && krajnjaTacka == interval.getKrajnjaTacka() &&
+                pocetnaPripada == interval.isPocetnaPripada() && krajnjaPripada == interval.isKrajnjaPripada();
+    }
 
     public double getPocetnaTacka() {
         return pocetnaTacka;

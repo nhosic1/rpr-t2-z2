@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ba0ae5-a97a-4c39-8907-2a81e3fc4f4d" name="Default Changelist" comment="" />
+    <list default="true" id="37ba0ae5-a97a-4c39-8907-2a81e3fc4f4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
@@ -36,12 +57,51 @@
       <option name="presentableId" value="Default" />
       <updated>1604670276603</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dodani atributi, konstruktor, geteri i seteri klase Interval">
+      <created>1604670480258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604670480258</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixup! Dodani atributi, konstruktor, geteri i seteri klase Interval">
+      <created>1604670591589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604670591589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dodani atributi, konstruktor, geteri i seteri klase Interval" />
+    <MESSAGE value="fixup! Dodani atributi, konstruktor, geteri i seteri klase Interval" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup! Dodani atributi, konstruktor, geteri i seteri klase Interval" />
   </component>
   <component name="WindowStateProjectService">
     <state x="180" y="41" width="1071" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604670330948">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state x="180" y="41" width="1071" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744@65.24.1301.744" timestamp="1604670330948" />
+    <state x="528" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1604670444746">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="528" y="102" key="#com.intellij.ide.util.MemberChooser/65.24.1301.744@65.24.1301.744" timestamp="1604670444746" />
+    <state x="271" y="24" key="CommitChangelistDialog2" timestamp="1604670591330">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="271" y="24" key="CommitChangelistDialog2/65.24.1301.744@65.24.1301.744" timestamp="1604670591330" />
   </component>
 </project>
