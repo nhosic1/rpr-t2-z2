@@ -7,6 +7,7 @@ public class Interval {
     private boolean krajnjaPripada;
 
     public Interval(double pocetnaTacka, double krajnjaTacka, boolean pocetnaPripada, boolean krajnjaPripada) {
+        if (pocetnaTacka > krajnjaTacka) throw new IllegalArgumentException();
         this.pocetnaTacka = pocetnaTacka;
         this.krajnjaTacka = krajnjaTacka;
         this.pocetnaPripada = pocetnaPripada;
