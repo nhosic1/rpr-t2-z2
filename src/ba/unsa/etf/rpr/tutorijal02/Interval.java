@@ -19,9 +19,9 @@ public class Interval {
         pocetnaPripada = false;
         krajnjaPripada = false;
     }
-   /* public boolean isNull(){
-
-    }*/
+    public boolean isNull(){
+        return this.equals(new Interval());
+    }
 
     @Override
     public boolean equals(Object obj) {
