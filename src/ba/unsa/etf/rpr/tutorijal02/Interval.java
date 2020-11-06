@@ -22,6 +22,18 @@ public class Interval {
     public boolean isNull(){
         return this.equals(new Interval());
     }
+    public boolean isIn(double tacka){
+        boolean in = false;
+        if (tacka>pocetnaTacka && tacka<krajnjaTacka) in = true;
+        if (tacka == pocetnaTacka){
+            if (pocetnaPripada) in = true;
+        }
+        if (tacka == krajnjaTacka){
+            if (krajnjaPripada) in = true;
+        }
+        return in;
+    }
+
 
     @Override
     public boolean equals(Object obj) {

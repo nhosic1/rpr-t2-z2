@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37ba0ae5-a97a-4c39-8907-2a81e3fc4f4d" name="Default Changelist" comment="">
+    <list default="true" id="37ba0ae5-a97a-4c39-8907-2a81e3fc4f4d" name="Default Changelist" comment="Implementirana metoda isNull">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/tutorijal02/Interval.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IntervalTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.tutorijal02.Main" />
       <module name="rpr-t2-z2" />
@@ -47,6 +48,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntervalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr-t2-z2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.tutorijal02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr.tutorijal02" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.tutorijal02.IntervalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.IntervalTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntervalTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604670591589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementirana metoda equals">
+      <created>1604670924991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604670924991</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementirana metoda isNull">
+      <created>1604670975144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604670975144</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,17 +127,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dodani atributi, konstruktor, geteri i seteri klase Interval" />
     <MESSAGE value="fixup! Dodani atributi, konstruktor, geteri i seteri klase Interval" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! Dodani atributi, konstruktor, geteri i seteri klase Interval" />
+    <MESSAGE value="Implementirana metoda equals" />
+    <MESSAGE value="Implementirana metoda isNull" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementirana metoda isNull" />
   </component>
   <component name="WindowStateProjectService">
     <state x="180" y="41" width="1071" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604670330948">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
     <state x="180" y="41" width="1071" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1301.744@65.24.1301.744" timestamp="1604670330948" />
-    <state x="528" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1604670444746">
+    <state x="528" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1604670762212">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
-    <state x="528" y="102" key="#com.intellij.ide.util.MemberChooser/65.24.1301.744@65.24.1301.744" timestamp="1604670444746" />
+    <state x="528" y="102" key="#com.intellij.ide.util.MemberChooser/65.24.1301.744@65.24.1301.744" timestamp="1604670762212" />
     <state x="271" y="24" key="CommitChangelistDialog2" timestamp="1604670591330">
       <screen x="65" y="24" width="1301" height="744" />
     </state>
